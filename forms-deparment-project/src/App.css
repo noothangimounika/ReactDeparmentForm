@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.deparmentForm{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+form{
+    width: 500px;
+    height: 520px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 2px solid rgb(16, 97, 219);
+}
+form input{
+  width: 400px;
+  height: 50px;
+  margin-top: 20px;
+  border: 2px solid rgb(16, 97, 219);
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+form input:hover{
+  background-color: rgb(231, 232, 233);
+}
+input::placeholder{
+  font-size: 17px;
+  padding: 10px;
+  color: rgb(16, 97, 219);
+}
+#submit{
+  width: 150px;
+  height: 50px;
+  background-color:rgb(16, 97, 219) ;
+  color: white;
+  margin-right: 240px;
+  transition: all 0.5s ease;
+}
+#submit:hover{
+  background-color: rgb(12, 79, 180);
+  transform: scale(1.1);
+  border: 1px black solid;
+}
+
+
+
+.LoginValidations{
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(45deg,rgb(126, 184, 61),rgb(207, 146, 32));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.box{
+  width: 500px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px rgb(0, 0, 41) solid;
+  
+}
+.input-width-icon{
+  display: flex;
+}
+.customer-input{
+  width: 95%;
+  /* border: none; */
+  height: 30px;
+  outline: none ;
+  border: 2px rgb(0, 0, 41) solid;
+  font-size: 17px;
+}
+.icon-span{
+  cursor: pointer;
+}
+.tracker-box{
+  background-color: #386489;
+  width: 95%;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 1px rgb(0, 0, 41) solid;
+  
+}
+.tracker-box .validated{
+  color: rgba(255,255,255,0.5);
+  margin-top: 10px;
+}
+.list-icon{
+  margin-right: 8px;
+}
+.list-icon.green{
+  color: rgb(255, 255, 255);
+}
+.box h1{
+  text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   color: rgb(1, 1, 34);
+   font-size: 35px;
+}
