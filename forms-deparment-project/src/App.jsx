@@ -5,8 +5,8 @@ import LoginValidations from './LoginValidations'
 const App = () => {
   return (
     <div>
-      {/* <DeparmentForm /> */}
-      <LoginValidations />
+      <DeparmentForm />
+      {/* <LoginValidations /> */}
     </div>
   )
 }
